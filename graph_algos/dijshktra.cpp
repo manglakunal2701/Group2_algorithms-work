@@ -5,6 +5,7 @@ void printParent(vector<int>&parent,int u){
     if(parent[u]>=0){
         printParent(parent,parent[u]);
     }
+    
 }
 int  main(){
    cout<<"enter the nodes of graph"<<endl;

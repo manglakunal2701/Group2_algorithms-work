@@ -6,6 +6,7 @@ int main(){
     cin>>n;
     cout<<"now enter the number of edges "<<endl;
     cin>>m;
+    
     vector<pair<int,pair<int,int>>>arr;
     for(int i=0;i<m;i++){
         int x,y,wt;
